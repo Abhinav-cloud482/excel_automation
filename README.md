@@ -15,16 +15,6 @@ A Python-based Excel automation project using OpenPyXL to generate realistic sal
 * Adds calculated values to the workbook
 * Saves the processed data as a new Excel file
 
-## Project Structure
-excel_automation/
-│
-├── excel_automation.py   # Processes the Excel workbook
-├── create_data.py        # Generates sample sales data
-├── requirements.txt      # Project dependencies
-├── input.xlsx            # Generated/input Excel dataset
-├── output.xlsx           # Processed Excel output
-└── README.md             # Project documentation
-
 ## Technologies Used
 
 * Python 3
@@ -36,7 +26,9 @@ excel_automation/
 
 Install the required dependency:
 
+```
 pip install -r requirements.txt
+```
 
 ## Usage
 1. Generate Sample Data
@@ -52,7 +44,9 @@ This creates input.xlsx containing 2,000 sample sales records.
 
 Run:
 
+```
 python excel_automation.py
+```
 
 
 The script reads input.xlsx, processes the worksheet, adds a calculated Total column, and saves the result as output.xlsx.
