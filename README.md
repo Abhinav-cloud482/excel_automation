@@ -16,7 +16,6 @@ A Python-based Excel automation project using OpenPyXL to generate realistic sal
 * Saves the processed data as a new Excel file
 
 ## Project Structure
-
 excel_automation/
 │
 ├── excel_automation.py   # Processes the Excel workbook
