@@ -33,10 +33,11 @@ pip install -r requirements.txt
 ## Usage
 1. Generate Sample Data
 
-Run:
+Run :
 
+```
 python create_data.py
-
+```
 
 This creates input.xlsx containing 2,000 sample sales records.
 
@@ -53,6 +54,7 @@ The script reads input.xlsx, processes the worksheet, adds a calculated Total co
 
 ## Workflow
 
+```
 create_data.py
       │
       ▼
@@ -63,13 +65,15 @@ excel_automation.py
       │
       ▼
   output.xlsx
+```
 
 ## Example Calculation
 
 The automation script creates the following Excel formula:
 
+```
 =B2*C2
-
+```
 
 The formula is applied row-by-row to calculate the total based on the quantity and price columns.
 
@@ -88,9 +92,11 @@ The output workbook can be opened directly in Microsoft Excel or compatible spre
 
 * OpenPyXL
 
-Install dependencies with:
+Install dependencies with :
 
+```
 pip install -r requirements.txt
+```
 
 ## Use Cases
 
@@ -102,6 +108,7 @@ This project demonstrates practical Excel automation concepts that can be extend
 * Spreadsheet generation
 * Business reporting workflows
 * Bulk Excel data manipulation
-* License
+
+## License
 
 This project is available for educational and personal use.
