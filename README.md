@@ -2,19 +2,21 @@
 Excel Automation is a Python-based project using OpenPyXL to read Excel data, calculate row-wise totals, add computed columns, and save the processed workbook automatically. It streamlines repetitive spreadsheet tasks and improves efficiency.
 
 
-Excel Automation
+## Excel Automation
 
 A Python-based Excel automation project using OpenPyXL to generate realistic sales data, perform spreadsheet calculations, and automate workbook processing.
 
-Features
-Generates a sample Excel sales dataset with 2,000 records
-Creates customer, product, category, date, quantity, price, total, and city data
-Applies basic Excel formatting and column sizing
-Reads and processes existing Excel data
-Automatically calculates Total = Quantity × Price
-Adds calculated values to the workbook
-Saves the processed data as a new Excel file
-Project Structure
+## Features
+* Generates a sample Excel sales dataset with 2,000 records
+* Creates customer, product, category, date, quantity, price, total, and city data
+* Applies basic Excel formatting and column sizing
+* Reads and processes existing Excel data
+* Automatically calculates Total = Quantity × Price
+* Adds calculated values to the workbook
+* Saves the processed data as a new Excel file
+
+## Project Structure
+
 excel_automation/
 │
 ├── excel_automation.py   # Processes the Excel workbook
@@ -24,24 +26,20 @@ excel_automation/
 ├── output.xlsx           # Processed Excel output
 └── README.md             # Project documentation
 
-Technologies Used
-Python 3
-OpenPyXL – Excel workbook creation and automation
-Random – Sample data generation
-Datetime – Date generation and manipulation
-Installation
+## Technologies Used
 
-Clone the repository and navigate to the project directory:
+* Python 3
+* OpenPyXL – Excel workbook creation and automation
+* Random – Sample data generation
+* Datetime – Date generation and manipulation
 
-git clone <your-repository-url>
-cd excel_automation
-
+## Installation 
 
 Install the required dependency:
 
 pip install -r requirements.txt
 
-Usage
+## Usage
 1. Generate Sample Data
 
 Run:
@@ -60,7 +58,8 @@ python excel_automation.py
 
 The script reads input.xlsx, processes the worksheet, adds a calculated Total column, and saves the result as output.xlsx.
 
-Workflow
+## Workflow
+
 create_data.py
       │
       ▼
@@ -72,7 +71,7 @@ excel_automation.py
       ▼
   output.xlsx
 
-Example Calculation
+## Example Calculation
 
 The automation script creates the following Excel formula:
 
@@ -90,24 +89,26 @@ output.xlsx – Automated and processed Excel workbook
 
 The output workbook can be opened directly in Microsoft Excel or compatible spreadsheet applications.
 
-Requirements
-Python 3.8+
-OpenPyXL
+## Requirements
+
+* Python 3.8+
+
+* OpenPyXL
 
 Install dependencies with:
 
 pip install -r requirements.txt
 
-Use Cases
+## Use Cases
 
-This project demonstrates practical Excel automation concepts that can be extended to:
+This project demonstrates practical Excel automation concepts that can be extended to :
 
-Sales reporting
-Data processing
-Automated calculations
-Spreadsheet generation
-Business reporting workflows
-Bulk Excel data manipulation
-License
+* Sales reporting
+* Data processing
+* Automated calculations
+* Spreadsheet generation
+* Business reporting workflows
+* Bulk Excel data manipulation
+* License
 
 This project is available for educational and personal use.
